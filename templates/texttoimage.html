@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--버튼 만들기 run refresh -->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/css/style_texttoimage.css" rel="stylesheet">
+    <title>텍스트투이미지</title>
+</head>
+<body>
+    <div class="test2">Text to Images</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <main>
+        <div class="paragraph" id="about" style="width: 45%">
+            짧게는 단어에서 길게는 문장 단위의 text가 들어오면 Contrastive Language-Image Pretraining, 
+            CLIP으로 unsplash 데이터에서 가장 적합한 이미지를 뽑아 제공합니다. 
+            Unsplash 데이터가 실제 사진 위주로 구성되어 있기 때문에 
+            이미지 장르의 다양성을 위해 Trigram KeyBERT를 활용, 
+            실시간 crawling을 통해 이미지를 추가했고 이를 T.C.CLIP이라 칭하였습니다. 
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="search">
+            <input type="text" onkeyup="fnEnterkey();" placeholder="검색어 입력">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+        </div>
+        <script>
+            link = '/lightbox';
+
+            function fnEnterkey() { 
+            if (window.event.keyCode == 13) {
+                location.href = link; 
+            }
+        }
+        </script>
+        <br>
+        <br> 
+        <br> 
+        <button class="button"><a href="/texttoimage">Refresh</a></button>
+        <br>
+        <br>
+        <button class="button" onClick="location.href='/lightbox'" style="cursor:pointer;">Run</button>
+    </main>
+</body>
+</html>

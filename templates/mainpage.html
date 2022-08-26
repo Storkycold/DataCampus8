@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/css/style.css" rel="stylesheet">
+    <title>Project 8</title>
+</head>
+<body>
+    <div class="relative"> 
+        <div class="test1">마음마중물: Coloring Book</div>
+    <svg height="100" width="100">
+        <circle class="absolute l-[469px] t-[235px]" cx="50" cy="50" r="40" stroke="#D0E6A5" stroke-width="3" fill="#D0E6A5" />
+    </svg>
+    <br> 
+    <svg height="100" width="100">
+        <circle class="absolute circle2" cx="30" cy="30" r="18" stroke="#FAB9B0" stroke-width="3" fill="#FAB9B0" />
+    </svg>
+    <br> 
+    <div class="absolute paragraph" id="about" style="width: 45%">
+        아동 내담자의 발화를 기반으로 맞춤형 컬러링 도안을 실시간으로 제공합니다. <br>
+        본 도안을 활용한 컬러링 활동이 내담자와 상담자의 원활한 상호작용을 유도하는 ‘마음 마중물’의 역할을 수행할 것입니다.
+        이 서비스는 단어부터 긴 문장에 해당하는 텍스트 input들을 바탕으로 다양한 컬러링 도안 output을 제공하여 
+        내담 아동이 원하는 도안을 선택하여 활동을 진행할 수 있는 text-to-coloringpages 모델을 바탕으로 한 서비스를 제공하고자 합니다.
+    </div>
+    
+    <!-- 원 애니메이션 추가 -->
+    <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+    </div>
+    <br>
+
+    <button class="button1 absolute l-[240px] t-[430px]"><a href='/texttoimage'>TEXT</a> 
+    </button>
+    <br>
+    <button class="button2 absolute l-[480px] t-[430px]"><a href='/imagetoimage'>IMAGE</a>
+    </button>
+    <svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="absolute l-[383px] t-[791px]" cx="68" cy="68" r="68" fill="#FFEBBF"/>
+    </svg>
+    <br>  
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<footer class="test3 relative l-[1500px] t-[1500px]"> 
+    <br>
+    <br>
+    이 프로젝트는 고려대학교 심리학과 학부장 최기홍 교수님, <br>직업환경의학 김성아 전문의 등<br>전문가 분들의 자문을 받았습니다. 
+</footer>
+</html>

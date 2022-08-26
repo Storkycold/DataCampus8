@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "BMDOHYEON";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* 제목: 마음마중물 - 도현체 */
+
+.test2 {
+    font-family: "BMDOHYEON"; 
+    font-size: 80px; 
+    color: white; 
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
+    top: 60px;
+} 
+
+a {
+    text-decoration-line: none;
+} /* 밑줄 없애기 */
+
+body {
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #B2A4FF;
+    padding: 0 20px 20px 20px;
+    border: 0;
+    position: relative; 
+    /* overflow: hidden; */
+}
+
+.paragraph {
+    font-size: 1.0em; 
+    font-family: "Noto Sans KR"; 
+    color: white; 
+    font-weight: 400; 
+    text-align: center;
+    margin: auto;
+}
+
+.container { 
+    flex-wrap: wrap; 
+}
+
+/* label 스타일 조정 */
+.button {
+    display: flex;
+    font-family: "Noto Sans KR"; 
+    justify-content: center;
+}
+
+label {
+    cursor: pointer;
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    margin: auto;
+    position: relative;
+}
+
+/* 못생긴 기존 input 숨기기 */
+#chooseFile {
+    visibility: hidden;
+}
+
+.button2 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    height: 3em;
+    width: 8em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: white;
+    border: none;
+    border-radius: 10em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    margin: auto;
+    position: relative;
+    font-family: "Noto Sans KR";
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button2:hover {
+    background-color: #B2A4FF;
+    box-shadow: 0px 15px 20px rgba(178, 164, 255, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.button2:active {
+    transform: translateY(-1px);
+}
+
+.main {
+    margin: auto;
+}

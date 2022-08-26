@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <link href="static/css/style_imagetoimage.css" rel="stylesheet">
+    <script src="js/javascript_imagetoimage.js"></script>
+    <title>이미지투이미지</title>
+  </head>
+  <body>
+    <main>
+      <div class="test2">Image to Coloringpages</div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="paragraph" id="about" style="width: 45%">
+        T.C.CLIP에서 뽑힌 이미지를 컬러링 도안화합니다. 
+        일러스트레이션부터 사진까지 다양한 이미지를 17시간 이상의 학습을 거친 Conditional Generative Adversarial Nets 모델과 
+        이미지 processing 기법들을 통해 이미지를 효과적으로 컬러링 도안으로 만들어내며 
+        이 부분을 Coloring processor 부분이라 칭하였습니다.
+      </div>
+      <br>  
+      <br>
+      <br>
+      <div class="button2"><a href='/imagetoimage'>Refresh</a></div>
+      <br>
+      <br>
+      <form method="post" action="/lightbox" enctype="multipart/form-data">
+          <div class="button2">
+            <label for="chooseFile">
+              Image Upload
+            </label>    
+            <br>
+            <br> 
+            <br>
+            <br>
+          </div>
+          <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+          <br>
+          <br>
+          <a href='/lightbox'><input class="button2" type="submit" value="Run"></a>
+      </form>   
+
+    </main>
+  </body>
+</html>
+

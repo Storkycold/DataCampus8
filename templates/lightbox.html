@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="static/css/style_lightbox.css">
+        <link rel="stylesheet" type="text/css" href="static/css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/javascript_lightbox.js"></script>
+    </head>
+    <body> 
+        <main>
+            <div class="test2">Coloring Images</div>
+            <br>
+            <br>
+            <br>
+                <div class="gallery" style="width: 55%">
+                    <a href="static/img/dog1.jpg" data-lightbox="mygallery"><img src="static/img/dog1.jpg"></a>
+                    <a href="static/img/dog2.jpg" data-lightbox="mygallery"><img src="static/img/dog2.jpg"></a>
+                    <a href="static/img/dog3.jpg" data-lightbox="mygallery"><img src="static/img/dog3.jpg"></a>
+                    <a href="static/img/dog4.jpg" data-lightbox="mygallery"><img src="static/img/dog4.jpg"></a>
+                    <a href="static/img/dog5.jpg" data-lightbox="mygallery"><img src="static/img/dog5.jpg"></a>
+                    <a href="static/img/dog6.jpg" data-lightbox="mygallery"><img src="static/img/dog6.jpg"></a>
+                </div>
+                <br>
+                <br>
+            <button onclick="myprint()">인쇄</button>
+            <script type="text/javascript">
+                function myprint() {
+                    window.print(); 
+                }
+            </script>
+        </main>
+    </body>
+</html>
