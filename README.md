@@ -49,22 +49,18 @@ real photo를 추출하는 경우는 [final]_text_to_coloring_pages(2).ipynb와 
 (깃허브 코드)
 
 @pix2pix
-
  https://github.com/phillipi/pix2pix
  https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Pix2Pix_for_Facades.ipynb
  https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
  
 @crawling
- 
  https://github.com/joedockrill/jmd_imagescraper 
 
 (논문)
 
 @pix2pix
-
 https://arxiv.org/abs/1611.07004 
 
 @clip
-
 https://arxiv.org/abs/2103.00020
 
