@@ -47,9 +47,18 @@ real photo를 추출하는 경우는 [final]_text_to_coloring_pages(2).ipynb와 
 
 # 공부와 모델 생성에 활용한 논문 및 코드는 다음과 같음
 (깃허브 코드)
-<https://colab.research.google.com/drive/1Muyez7YDV8xXBxZWOfSm0p9sVFh8sMxL?usp=sharing>
-<https://colab.research.google.com/drive/1mbq2cjzIleiLMPtX9r4Liv8VwzV1yREA?usp=sharing>
-<https://colab.research.google.com/drive/1q21CmEPstkszmnrYX7N76nAAk8CVCrHh?usp=sharing>
+@pix2pix
+ https://github.com/phillipi/pix2pix
+ https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Pix2Pix_for_Facades.ipynb
+ https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+ 
+ @crawling
+ https://github.com/joedockrill/jmd_imagescraper 
 
 (논문)
+@pix2pix
+https://arxiv.org/abs/1611.07004 
+
+@clip
+https://arxiv.org/abs/2103.00020
 
