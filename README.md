@@ -28,7 +28,7 @@ CLIP모델에 unsplash 데이터셋을 추가하고, Trigram KeyBERT를 활용�
 
 ![readme_img5](https://user-images.githubusercontent.com/109835838/186925821-dd94ca56-aa28-43cd-8ca2-4cadf7e2c5e4.png)
 
-![readme_img6](https://user-images.githubusercontent.com/109835838/186925788-957f8697-4866-4a4c-ba03-412e5ee5757e.png
+![readme_img6](https://user-images.githubusercontent.com/109835838/186925788-957f8697-4866-4a4c-ba03-412e5ee5757e.png)
 
 pix2pix를 바탕으로 전처리와 후처리 코드를 추가했습니다.
 
