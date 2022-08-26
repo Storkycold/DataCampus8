@@ -19,9 +19,12 @@
 
 CLIP모델에 unsplash 데이터셋을 추가하고, Trigram KeyBERT를 활용해 실시간 crawling을 진행해 이미지를 추가함.
 
-(image)
+![image](https://user-images.githubusercontent.com/105578577/186924406-9ad36500-379e-4f1c-bcc9-aab51ad4b006.png)
 
-#Coloring processor (images_to_coloringpages)
+#Coloring processor (images_to_coloringpages) 
+
+![image](https://user-images.githubusercontent.com/105578577/186924882-9b637f1a-c7be-42a4-b692-5eb275acfdcc.png)
+
 
 pix2pix를 바탕으로 전처리와 후처리 코드를 추가했습니다.
 
