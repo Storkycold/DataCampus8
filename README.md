@@ -38,6 +38,6 @@ real photo를 추출하는 경우는 [final]_text_to_coloring_pages(2).ipynb를 
 
 # 공부와 모델 생성에 활용한 논문 및 코드는 다음과 같음
 (논문)
-
+<https://colab.research.google.com/drive/1Muyez7YDV8xXBxZWOfSm0p9sVFh8sMxL?usp=sharing>
 (깃허브 코드)
 
