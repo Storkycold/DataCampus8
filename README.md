@@ -11,7 +11,7 @@
 ## 서비스 프로세스 설명
 ![readme_img1](https://user-images.githubusercontent.com/109835838/186925714-6b50ef78-c1b2-4545-964e-c3ca8719f789.png)
 
-![readme_img2](https://user-images.githubusercontent.com/109835838/186925735-84b7ebad-a05b-4dc0-b4bd-5a4db8a02c28.png)
+
 
 ##모델 설명
 
@@ -19,11 +19,14 @@
 
 CLIP모델에 unsplash 데이터셋을 추가하고, Trigram KeyBERT를 활용해 실시간 crawling을 진행해 이미지를 추가함.
 
+![readme_img2](https://user-images.githubusercontent.com/109835838/186925735-84b7ebad-a05b-4dc0-b4bd-5a4db8a02c28.png)
+
 ![readme_img3](https://user-images.githubusercontent.com/109835838/186925759-4ac4fbe8-554c-4b94-881d-7eb67dd3bee8.png)
 
-![readme_img4](https://user-images.githubusercontent.com/109835838/186925773-67eb6768-f504-441b-96f6-10467535c8ed.png)
 
 #Coloring processor (images_to_coloringpages) 
+
+![readme_img4](https://user-images.githubusercontent.com/109835838/186925773-67eb6768-f504-441b-96f6-10467535c8ed.png)
 
 ![readme_img5](https://user-images.githubusercontent.com/109835838/186925821-dd94ca56-aa28-43cd-8ca2-4cadf7e2c5e4.png)
 
