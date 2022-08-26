@@ -12,6 +12,8 @@
 (image)
 
 ##모델 설명
+![image](https://user-images.githubusercontent.com/105578577/186923564-4c3f4a7e-225d-45ab-837e-95e9712c243c.png)
+
 
 #T.C.CLIP (text_to_images)
 
