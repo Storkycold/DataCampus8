@@ -13,7 +13,7 @@
 
 ![readme_img2](https://user-images.githubusercontent.com/109835838/186925735-84b7ebad-a05b-4dc0-b4bd-5a4db8a02c28.png)
 
-#모델 설명
+# 모델 설명
 
 #T.C.CLIP (text_to_images)
 
@@ -22,7 +22,7 @@ CLIP모델에 unsplash 데이터셋을 추가하고, Trigram KeyBERT를 활용�
 ![readme_img3](https://user-images.githubusercontent.com/109835838/186925759-4ac4fbe8-554c-4b94-881d-7eb67dd3bee8.png)
 
 
-#Coloring processor (images_to_coloringpages) 
+# Coloring processor (images_to_coloringpages) 
 
 ![readme_img4](https://user-images.githubusercontent.com/109835838/186925773-67eb6768-f504-441b-96f6-10467535c8ed.png)
 
@@ -31,8 +31,6 @@ CLIP모델에 unsplash 데이터셋을 추가하고, Trigram KeyBERT를 활용�
 ![readme_img6](https://user-images.githubusercontent.com/109835838/186925788-957f8697-4866-4a4c-ba03-412e5ee5757e.png)
 
 pix2pix를 바탕으로 전처리와 후처리 코드를 추가했습니다.
-
-(image)
 
 pix2pix에 관한 자세한 사항은 pix2pix 폴더 pix2pix 에 업로드된 Colab Notebooks 파일을 통해 확인할 수 있습니다.
 ReadMe_Pix2Pix 파일에서 구조 및 학습의 순서를 확인할 수 있으며 모델 생성 및 학습의 과정은 나머지 .ipynb 파일을 순서대로 보시면 확인할 수 있습니다.
